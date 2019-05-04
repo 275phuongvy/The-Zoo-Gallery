@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Settings">
+
+        <Preference
+            android:title="The Zoo 5"
+            android:summary="Copyright 2018 Vy Tran\u2122"
+            android:selectable="false"/>
+        <Preference
+            android:title="Version"
+            android:summary="1.0"
+            android:selectable="false"/>
+        <Preference
+            android:title="Animal Information"
+            android:summary="Learn more about the zoo animals"
+            android:key="key_animal_info"/>
+        <CheckBoxPreference
+            android:title="Play Background Music"
+            android:key="key_music_enabled"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:title="Play Sound Effects"
+            android:key="key_sound_enabled"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
