@@ -21,6 +21,12 @@ This app demonstrate:
 
 More information
 
+- Lamar University
+
+- Course: Android Programming
+
+- Instructor: Dr.Tim Roden
+
 - Creator: Vy Phuong Tran
 
 - API: 19
